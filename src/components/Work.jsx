@@ -2,6 +2,7 @@ import React from 'react';
 import diary from '../assets/diary.jpg';
 import biblio from '../assets/biblio.jpg';
 import travel from '../assets/travel.jpg';
+import threejs from '../assets/demo.png';
 
 const Work = () => {
   return (
@@ -105,6 +106,39 @@ const Work = () => {
                 </a>
                 <a
                   href="https://github.com/AntipovIvan/mern-project"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    コード
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${threejs})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Three.js demo
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://threejs-demo-1cb2b.web.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    デモ
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/AntipovIvan/threejs-react-demo"
                   target="_blank"
                   rel="noreferrer"
                 >
